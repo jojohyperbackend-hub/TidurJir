@@ -15,6 +15,25 @@ TidurJir adalah aplikasi Android sederhana untuk mencatat dan memantau pola tidu
    - Menampilkan peringatan berbasis aturan statis (rule-based warning) untuk pola tidur yang kurang ideal.
    - Menyajikan diagram korelasi visual sederhana antara durasi tidur dan kondisi mood pengguna tanpa menggunakan teknologi AI atau model generatif.
 
+## Skenario Penggunaan Nyata (Real-World Use Cases)
+
+Berikut adalah beberapa skenario riil bagaimana pengguna memanfaatkan **TidurJir** dalam kehidupan sehari-hari:
+
+### 1. Pelacakan Fleksibel untuk Pekerja Shift Malam (Shift Worker)
+*   **Kasus**: Budi bekerja sebagai petugas keamanan shift malam. Jam tidurnya sangat tidak beraturan, sering kali ia harus tidur di pagi hari (misalnya pukul 08:00 pagi) hingga siang hari (pukul 15:00 sore).
+*   **Aksi di Aplikasi**: Budi dapat mencatat jam tidur dan bangunnya secara bebas dan sebebas-bebasnya kapan saja tanpa batasan tanggal masa depan yang kaku.
+*   **Manfaat**: Riwayat tidur Budi tetap tercatat dengan akurat meskipun pola tidurnya terbalik dari orang biasa, tanpa adanya peringatan eror validasi waktu yang mengganggu.
+
+### 2. Analisis Korelasi Kurang Tidur & Mood (Pekerja Kantoran / Mahasiswa)
+*   **Kasus**: Rara merasa akhir-akhir ini emosinya tidak stabil dan sering merasa cemas (mood rendah). Ia mencurigai hal ini disebabkan oleh kebiasaan begadang mengerjakan proyek.
+*   **Aksi di Aplikasi**: Setiap bangun tidur, Rara meluangkan waktu 10 detik untuk mengisi log jam tidur, jam bangun, kualitas tidur, tingkat mood (1-5), dan menambahkan catatan kecil seperti *"Begadang push rank"* atau *"Lembur deadline project"*.
+*   **Manfaat**: Setelah satu minggu, Rara membuka **Insight Dashboard** dan melihat korelasi nyata dalam bentuk angka deterministik bahwa durasi tidur di bawah 5 jam selalu berujung pada tingkat Mood berskala 1 atau 2. Ini menjadi bukti konkret bagi Rara untuk memperbaiki jadwal tidurnya.
+
+### 3. Pemulihan Penderita Insomnia (Insomnia Recovery)
+*   **Kasus**: Andi sedang menjalani terapi mandiri untuk memulihkan gangguan insomnianya dengan mencoba teknik tidur baru dan ingin melihat perkembangannya secara objektif.
+*   **Aksi di Aplikasi**: Andi memperbarui log tidurnya setiap hari. Jika dia salah memasukkan data karena mengantuk, dia dapat langsung melakukan **Update** (edit) atau **Delete** log tersebut secara instan melalui daftar riwayat.
+*   **Manfaat**: Dengan penyimpanan database lokal Room, Andi merasa tenang karena seluruh data kesehatan tidurnya bersifat 100% privat di dalam ponselnya sendiri, tanpa takut bocor ke internet atau server cloud manapun.
+
 ## Tech Stack
 
 | Layer / Komponen | Teknologi |
