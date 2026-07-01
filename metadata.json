@@ -1,5 +1,5 @@
 {
-  "name": "SleepSanity",
+  "name": "TidurJir",
   "description": "Log and analyze your daily sleep pattern and mood with clean, deterministic local insights.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

@@ -50,7 +50,7 @@ fun SleepListScreen(
             LargeTopAppBar(
                 title = {
                     Text(
-                        "SleepSanity",
+                        "TidurJir",
                         fontWeight = FontWeight.Bold,
                         style = MaterialTheme.typography.headlineMedium
                     )
